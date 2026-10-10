@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="logo" class="navbar-brand" href="#"><i class="fa-solid fa-gamepad"></i>TECH STORE </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Choose</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Consoles</a></li>
+                <li><a class="dropdown-item" href="#">Add To Card</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Order Now</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img1"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9RVKmywl__-7lMO7AOUwflg93XQuDUdkwqIehU2-HmA&s=10"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class="img1"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAufGoD5lJ-MWk1DWjFX7f99EmpaZAdOmjnfiB7MsTZg&s=10"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class="img1"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZ9pxSuCrzq5hla6u5LEG-fGFLPjC5DQaF55wXrf_JA&s=10"
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <br><br>
+
+  <h1 class="head1"> Console Feature</h1>
+
+  <br><br>
+
+  <div class="main">
+
+    <div class="box">
+
+      <h2 class="icon"><i class="fa-solid fa-microchip"></i> </h2>
+      <h2 class="head2"> Best CPU </h2>
+      <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, inventore. Repellendus eius sint
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, laudantium dignissimos.
+        hic. </p>
+
+    </div>
+
+    <div class="box">
+
+      <h2 class="icon"><i class="fa-solid fa-bolt"></i></h2>
+      <h2 class="head2"> Fast SSD </h2>
+      <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, inventore. Repellendus eius sint
+        hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, laudantium dignissimos.
+        hic. </p>
+
+    </div>
+
+    <div class="box">
+
+      <h2 class="icon"><i class="fa-solid fa-display"></i> </h2>
+      <h2 class="head2">4K Screen Output</h2>
+      <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, inventore. Repellendus eius sint
+        hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, laudantium
+        hic. </p>
+
+    </div>
+
+  </div>
+
+  <br><br><br>
+
+  <h1 class="head5"> Choose Your Console and 4k Screen </h1>
+  <p class="para2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tenetur ratione optio laborum rem
+    maxime magnam vero veniam saepe ipsam, id quaerat doloremque ducimus unde voluptatibus magni.
+  </p>
+
+  <br><br>
+
+  <div class="main1">
+
+    <div class="box1">
+
+      <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhg_OmVFou3aOQ3OeIJh19FhrXgKi0LQMx6G0pEv_Blw&s=10"
+        alt="">
+      <br>
+      <h3 class="head6">PS5</h3>
+      <p class="para3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, quod. Numquam suscipit eum minima? Fugiat
+        repellendus corrupti beatae libero.
+      </p>
+
+      <p class="price"> Rs190,000 </p>
+
+      <button class="but"> Add To Card </button>
+
+    </div>
+
+    <div class="box1">
+
+      <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR611mwQgZLhNn8dfxBRhP1WZTpjDhn4m5cncQwLMU3wQ&s=10"
+        alt="">
+      <br>
+      <h3 class="head6">Xbox Series X</h3>
+      <p class="para3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, quod. Numquam suscipit eum minima? Fugiat
+        repellendus corrupti beatae libero.
+      </p>
+
+      <p class="price"> Rs250,000 </p>
+
+      <button class="but"> Add To Card </button>
+
+    </div>
+
+    <div class="box1">
+
+      <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJPeUiBEUBCSQSEXZYKDNAhjkKVYje3WWdB1aVmbbGg&s=10"
+        alt="">
+      <br>
+      <h3 class="head6">Xbox Series S</h3>
+      <p class="para3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, quod. Numquam suscipit eum minima? Fugiat
+        repellendus corrupti beatae libero.
+      </p>
+
+      <p class="price"> Rs160,000 </p>
+
+      <button class="but"> Add To Card </button>
+
+    </div>
+
+  </div>
+
+  <div class="main2">
+
+
+    <div class="box1">
+
+      <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR8CAwqg936PfWipTsrqeePnxFANi-XlKWILZ2HZABHA&s=10"
+        alt="">
+      <br>
+      <h3 class="head6">Nintendo</h3>
+      <p class="para3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, quod. Numquam suscipit eum minima? Fugiat
+        repellendus corrupti beatae libero.
+      </p>
+
+      <p class="price"> Rs156,000 </p>
+
+      <button class="but"> Add To Card </button>
+
+    </div>
+
+
+
+    <div class="box1">
+
+      <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGChV7DKo3XMe7ikE4BNyg5L6XQqlQczIHhYRWO5scYA&s=10"
+        alt="">
+      <br>
+      <h3 class="head6">PS5 Controller</h3>
+      <p class="para3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, quod. Numquam suscipit eum minima? Fugiat
+        repellendus corrupti beatae libero.
+      </p>
+
+      <p class="price"> Rs20,000 </p>
+
+      <button class="but"> Add To Card </button>
+
+    </div>
+
+
+    <div class="box1">
+
+      <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtgZF6fV1P_QSUXlyewUS-7ONmNUtlgBonOCPcrhQpkw&s"
+        alt="">
+      <br>
+      <h3 class="head6">Xbox Controller</h3>
+      <p class="para3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, quod. Numquam suscipit eum minima? Fugiat
+        repellendus corrupti beatae libero.
+      </p>
+
+      <p class="price"> Rs15,000 </p>
+
+      <button class="but"> Add To Card </button>
+
+    </div>
+
+  </div>
+
+  <br><br>
+
+  <h1 class="head7">
+    Personal Information
+  </h1>
+
+  <br><br>
+
+  <div class="form1">
+    <h3 class="head8"> Customer Buying Form </h3>
+    <br>
+    <form action="">
+
+      <label for="">Full Name</label>
+      <input required type="text" name="" id="" placeholder="Full Name">
+      <br><br>
+      <label for="">Last Name</label>
+      <input required type="text" name="" id="" placeholder="Last Name">
+      <br><br>
+      <label for="">Contact</label>
+      <input required type="number" name="" id="" placeholder="Contact">
+      <br><br>
+      <label for="">Email Address</label>
+      <input required type="email" name="" id="" placeholder="Email Address">
+      <br><br>
+      <label for="">Prodact Choose</label>
+      <select name="" id="">
+        <option value="">PS5</option>
+        <option value="">Xbox Series X</option>
+        <option value="">Xbox Series S</option>
+        <option value="">Nintendo</option>
+        <option value="">PS5 Controller</option>
+        <option value="">Xbox Controlle</option>
+      </select>
+      <br><br>
+      <label for="">Payment Method</label>
+      <select name="" id="">
+        <option value="">JazzCash</option>
+        <option value="">Easypaisa</option>
+        <option value="">Cash On Delivery</option>
+        <option value="">Debit Card</option>
+      </select>
+      <br><br>
+      <label for="">Address</label>
+      <br>
+      <textarea name="" id=""></textarea>
+      <br><br>
+      <button class="but2"><i class="fa-solid fa-truck-fast"></i> Order Now </button>
+    </form>
+  </div>
+
+  <br><br>
+
+  <!-- footer -->
+
+  <div class="main3">
+
+    <div class="box2">
+
+      <h3 class="head9"> <i class="fa-solid fa-gamepad"></i>TECH STORE </h3>
+      <br>
+      <p class="para4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque praesentium eveniet nostrum
+        libero, voluptatem aspernatur molestias reiciendis id reprehenderit corporis eaque dolorem tempore fuga
+        molestiae vel nisi, minima quaerat quo. </p>
+    </div>
+    <br>
+    <div class="box3">
+      <h3 class="head10"> Customer Support </h3>
+      <br>
+      <p class="footer"> <i class="fa-solid fa-mobile-screen"></i>24/7 Helpline Number 92+467634464 </p>
+      <p class="footer"> <i class="fa-solid fa-floppy-disk"></i>1 year Warranty Claim</p>
+      <p class="footer"> <i class="fa-solid fa-truck-fast"></i>Track Your Order</p>
+    </div>
+    <br>
+    <div class="box4">
+      <h3 class="head10"> Playment Options</h3>
+      <br>
+      <p class="para4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium cupiditate error
+        nostrum, similique sit.</p>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="box5">
+    <p class="copy">&copy; 2026 <i class="fa-solid fa-gamepad"> </i>TECH STORE. Gaming Consoles E-Commerce Projects. </p>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
